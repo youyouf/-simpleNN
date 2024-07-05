@@ -6,6 +6,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)  # C++ 11 是强制要求，不会衰退至�
 set(CMAKE_CXX_EXTENSIONS OFF)  # 禁止使用编译器特有扩展
 
 add_subdirectory(src)
-aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} SRC)
-
-add_executable(main ${SRC})
+add_subdirectory(test)
