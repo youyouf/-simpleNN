@@ -1,5 +1,4 @@
-link_directories(${CMAKE_SOURCE_DIR}/build/src/)
-
+link_directories(${CMAKE_SOURCE_DIR}/build/src/)#链接生成的NN库
 
 aux_source_directory(${CMAKE_CURRENT_SOURCE_DIR} SRC)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
